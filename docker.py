@@ -10,7 +10,7 @@ form = cgi.FieldStorage()
 cm=""
 output=""
 cm = form.getvalue("x")
-output = sp.getoutput(cm)
+output = sp.getoutput(cm) 
 #print(cm)
 print(output)
 
